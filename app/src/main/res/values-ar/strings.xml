@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مساحة الأشكال</string>
+    <string name="circle">دائرة</string>
+    <string name="radius">نصف القطر</string>
+    <string name="calculate">احسب</string>
+    <string name="rectangle">مستطيل</string>
+    <string name="width">عرض</string>
+    <string name="height">ارتفاع</string>
+    <string name="choose_the_shape">اختر الشكل الهندسي</string>
+    <string name="triangle">مثلث</string>
+    <string name="the_result">الإجابة :</string>
+    <string name="base">قاعدة</string>
+</resources>

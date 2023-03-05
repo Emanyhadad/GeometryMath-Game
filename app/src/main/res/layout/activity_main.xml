@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Calculation"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_choosetheShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:fontFamily="casual"
+        android:text="@string/choose_the_shape"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Rectangle"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="20dp"
+        android:backgroundTint="#96E2EC"
+        android:text="@string/rectangle"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Triangle"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:backgroundTint="#FF96E2EC"
+        android:text="@string/triangle"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Circle"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:backgroundTint="#FF96E2EC"
+        android:text="@string/circle"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="@string/the_result"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ResultNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
